@@ -1,14 +1,39 @@
-{% block title %}Success | Vivaantra{% endblock %}
-{% block content %}
-<section class="max-w-5xl mx-auto px-6 py-28 text-center">
-    <div class="bg-white rounded-3xl p-12 shadow-xl border border-emerald-100">
-        <h1 class="font-serif text-5xl mb-6 text-emerald-950">Booking Confirmed</h1>
-        <p class="text-lg text-stone-600 mb-8">Thank you for choosing Vivaantra. Your session request has been received.</p>
-        <p class="text-stone-500 mb-8">A member of our team will follow up with details on payment and scheduling. If you'd like, you can also continue browsing sessions or learn more about our coaching approach.</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="sessions.html" class="inline-block bg-emerald-800 text-white px-8 py-3 rounded-full hover:bg-emerald-900 transition-all">View Sessions</a>
-            <a href="about.html" class="inline-block bg-stone-100 text-stone-900 px-8 py-3 rounded-full hover:bg-stone-200 transition-all">About Vivaantra</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmed | Vivaantra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .font-serif { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Inter', sans-serif; background-color: #fafaf9; }
+    </style>
+</head>
+<body>
+    <nav class="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
+        <a href="index.html" class="font-serif text-3xl font-bold text-emerald-950 italic">Vivaantra</a>
+    </nav>
+
+    <section class="max-w-4xl mx-auto px-6 py-28 text-center">
+        <div class="bg-white rounded-[3rem] p-16 shadow-2xl border border-stone-200">
+            <div class="mb-10 flex justify-center">
+                <div class="h-24 w-24 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+            </div>
+            <h1 class="font-serif text-5xl mb-6 text-emerald-950">Booking Received</h1>
+            <p class="text-lg text-stone-600 mb-10 leading-relaxed">
+                Thank you for trusting Vivaantra. Your journey towards clarity has begun. Check your inbox for the next steps.
+            </p>
+            <div class="flex flex-col sm:row gap-4 justify-center">
+                <a href="sessions.html" class="bg-emerald-950 text-white px-10 py-4 rounded-2xl hover:bg-emerald-800 transition-all font-medium">Browse More</a>
+                <a href="index.html" class="bg-stone-100 text-stone-900 px-10 py-4 rounded-2xl hover:bg-stone-200 transition-all font-medium">Home</a>
+            </div>
         </div>
-    </div>
-</section>
-{% endblock %}
+    </section>
+</body>
+</html>
