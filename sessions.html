@@ -1,103 +1,67 @@
-{% block title %}Sessions | Vivaantra{% endblock %}
-{% block content %}
-<section class="max-w-7xl mx-auto px-6 py-20">
-    <div class="text-center mb-12">
-        <h1 class="font-serif text-5xl mb-4 text-emerald-950">Choose Your Transformation</h1>
-        <p class="text-stone-600 max-w-2xl mx-auto">Select the session plan that best supports your clarity and growth goals.</p>
-    </div>
-    <div class="overflow-hidden rounded-3xl border border-stone-200 shadow-lg bg-white">
-        <table class="w-full text-left">
-            <thead class="bg-emerald-900 text-white uppercase text-xs tracking-wider">
-                <tr>
-                    <th class="px-6 py-5">S.No</th>
-                    <th class="px-6 py-5">Session Name</th>
-                    <th class="px-6 py-5">Description</th>
-                    <th class="px-6 py-5">Sessions</th>
-                    <th class="px-6 py-5">Cost</th>
-                    <th class="px-6 py-5 text-center">Action</th>
-                </tr>
-            </thead>
-            <tbody class="divide-y divide-stone-100 text-sm">
-                
-                <tr class="hover:bg-emerald-50 transition-colors">
-                    <td class="px-6 py-6 font-medium text-stone-400">01</td>
-                    <td class="px-6 py-6 font-semibold text-emerald-950">Discovery Call</td>
-                    <td class="px-6 py-6 text-stone-600">Introductory alignment chat to identify your core needs and "Mantra."</td>
-                    <td class="px-6 py-6 text-stone-500 italic">1 (20 Min)</td>
-                    <td class="px-6 py-6 font-bold text-emerald-600 uppercase">FREE</td>
-                    <td class="px-6 py-6 text-center">
-                        <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="inline-block border border-emerald-800 text-emerald-800 px-5 py-2 rounded-full hover:bg-emerald-800 hover:text-white transition-all">Book Free Slot</a>
-                    </td>
-                </tr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sessions | Vivaantra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .font-serif { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-stone-50">
+    <nav class="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
+        <a href="index.html" class="font-serif text-2xl font-bold text-emerald-950 italic">Vivaantra</a>
+        <div class="space-x-8 text-sm font-medium text-stone-600">
+            <a href="about.html" class="hover:text-emerald-800 transition-colors">About</a>
+            <a href="sessions.html" class="text-emerald-800">Sessions</a>
+        </div>
+    </nav>
 
-                <tr class="hover:bg-stone-50 transition-colors">
-                    <td class="px-6 py-6 font-medium text-stone-400">02</td>
-                    <td class="px-6 py-6 font-semibold">Counselling</td>
-                    <td class="px-6 py-6 text-stone-600">Specialized support for Couples, Career, Grief, or Behavioural transitions.</td>
-                    <td class="px-6 py-6 text-stone-500 italic">1 (35 Min)</td>
-                    <td class="px-6 py-6 font-semibold">₹299</td>
-                    <td class="px-6 py-6 text-center">
-                        <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="inline-block bg-stone-900 text-white px-5 py-2 rounded-full hover:bg-emerald-900 transition-all">Book Now</a>
-                    </td>
-                </tr>
-
-                <tr class="bg-emerald-50/20 hover:bg-emerald-50 transition-colors">
-                    <td class="px-6 py-6 font-medium text-stone-400">03</td>
-                    <td class="px-6 py-6 font-semibold">Counselling Bundle</td>
-                    <td class="px-6 py-6 text-stone-600">Extended support for deeper behavioral or relationship transformation.</td>
-                    <td class="px-6 py-6 text-emerald-700 font-medium">1 (35 Min) </td>
-                    <td class="px-6 py-6 font-semibold">₹299 </td>
-                    <td class="px-6 py-6 text-center">
-                        <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="inline-block bg-emerald-800 text-white px-5 py-2 rounded-full hover:bg-emerald-900 shadow-sm transition-all">Save ₹2k</a>
-                    </td>
-                </tr>
-
-                <tr class="hover:bg-stone-50 transition-colors">
-                    <td class="px-6 py-6 font-medium text-stone-400">04</td>
-                    <td class="px-6 py-6 font-semibold">Strategic Value Investing</td>
-                    <td class="px-6 py-6 text-stone-600">Fundamental analysis, moat identification, and investment psychology.</td>
-                    <td class="px-6 py-6 text-stone-500 italic">1 (35 Min)</td>
-                    <td class="px-6 py-6 font-semibold">₹499</td>
-                    <td class="px-6 py-6 text-center">
-                        <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="inline-block bg-stone-900 text-white px-5 py-2 rounded-full hover:bg-emerald-900 transition-all">Book Now</a>
-                    </td>
-                </tr>
-
-                <tr class="hover:bg-stone-50 transition-colors">
-                    <td class="px-6 py-6 font-medium text-stone-400">05</td>
-                    <td class="px-6 py-6 font-semibold">Systems & Automation</td>
-                    <td class="px-6 py-6 text-stone-600">Audit your workflows using logic frameworks to gain back 10+ hours/week.</td>
-                    <td class="px-6 py-6 text-stone-500 italic">1 (35 Min)</td>
-                    <td class="px-6 py-6 font-semibold">₹599</td>
-                    <td class="px-6 py-6 text-center">
-                        <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="inline-block bg-stone-900 text-white px-5 py-2 rounded-full hover:bg-emerald-900 transition-all">Book Now</a>
-                    </td>
-                </tr>
-
-                <tr class="hover:bg-stone-50 transition-colors">
-                    <td class="px-6 py-6 font-medium text-stone-400">06</td>
-                    <td class="px-6 py-6 font-semibold">Social Capital Strategy</td>
-                    <td class="px-6 py-6 text-stone-600">Auditing and expanding your network as a high-value professional asset.</td>
-                    <td class="px-6 py-6 text-stone-500 italic">1 (35 Min)</td>
-                    <td class="px-6 py-6 font-semibold">₹499</td>
-                    <td class="px-6 py-6 text-center">
-                        <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="inline-block bg-stone-900 text-white px-5 py-2 rounded-full hover:bg-emerald-900 transition-all">Book Now</a>
-                    </td>
-                </tr>
-
-                <tr class="bg-emerald-50/20 hover:bg-emerald-50 transition-colors">
-                    <td class="px-6 py-6 font-medium text-stone-400">07</td>
-                    <td class="px-6 py-6 font-semibold">The Full Transformation</td>
-                    <td class="px-6 py-6 text-stone-600">A mix of counseling, systems mastery, and strategic financial planning.</td>
-                    <td class="px-6 py-6 text-emerald-700 font-medium">1 (35 Min) </td>
-                    <td class="px-6 py-6 font-semibold">₹999</td>
-                    <td class="px-6 py-6 text-center">
-                        <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="inline-block bg-emerald-800 text-white px-5 py-2 rounded-full hover:bg-emerald-900 shadow-sm transition-all">Elite Access</a>
-                    </td>
-                </tr>
-
-            </tbody>
-        </table>
-    </div>
-</section>
-{% endblock %}
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <div class="text-center mb-12">
+            <h1 class="font-serif text-5xl mb-4 text-emerald-950">Choose Your Transformation</h1>
+            <p class="text-stone-600">Select the plan that supports your growth goals.</p>
+        </div>
+        
+        <div class="overflow-x-auto rounded-3xl border border-stone-200 shadow-lg bg-white">
+            <table class="w-full text-left min-w-[800px]">
+                <thead class="bg-emerald-900 text-white uppercase text-xs tracking-wider">
+                    <tr>
+                        <th class="px-6 py-5">S.No</th>
+                        <th class="px-6 py-5">Session Name</th>
+                        <th class="px-6 py-5">Description</th>
+                        <th class="px-6 py-5">Sessions</th>
+                        <th class="px-6 py-5">Cost</th>
+                        <th class="px-6 py-5 text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-stone-100 text-sm">
+                    <tr class="hover:bg-emerald-50 transition-colors">
+                        <td class="px-6 py-6">01</td>
+                        <td class="px-6 py-6 font-semibold">Discovery Call</td>
+                        <td class="px-6 py-6">Identify your core needs and "Mantra."</td>
+                        <td class="px-6 py-6 italic">1 (20 Min)</td>
+                        <td class="px-6 py-6 font-bold text-emerald-600">FREE</td>
+                        <td class="px-6 py-6 text-center">
+                            <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="border border-emerald-800 text-emerald-800 px-5 py-2 rounded-full hover:bg-emerald-800 hover:text-white">Book Free</a>
+                        </td>
+                    </tr>
+                    <tr class="hover:bg-stone-50 transition-colors">
+                        <td class="px-6 py-6">02</td>
+                        <td class="px-6 py-6 font-semibold">Counselling</td>
+                        <td class="px-6 py-6">Career, Grief, or Behavioural transitions.</td>
+                        <td class="px-6 py-6 italic">1 (35 Min)</td>
+                        <td class="px-6 py-6 font-semibold">₹299</td>
+                        <td class="px-6 py-6 text-center">
+                            <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="bg-stone-900 text-white px-5 py-2 rounded-full hover:bg-emerald-900">Book Now</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
