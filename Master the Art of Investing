@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivaantra | Value Investment Program</title>
+    <style>
+        :root {
+            --primary: #1a365d; /* Deep Navy for Trust */
+            --accent: #d4af37;  /* Gold for Wealth */
+            --text: #333;
+            --light: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text);
+            background-color: #fff;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        p.subtitle { font-size: 1.2rem; opacity: 0.9; margin-bottom: 30px; }
+
+        .btn {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: transform 0.2s;
+            display: inline-block;
+        }
+
+        .btn:hover { transform: scale(1.05); }
+
+        .section { padding: 60px 0; border-bottom: 1px solid #eee; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: var(--light);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th { background: var(--primary); color: white; }
+
+        .cta-footer {
+            background: var(--light);
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Master the Art of Wealth</h1>
+            <p class="subtitle">Join the Vivaantra Value Investment Program and learn to find undervalued gems in any market.</p>
+            <a href="#join" class="btn">Apply to the Program</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Why Value Investing?</h2>
+            <p>At Vivaantra, we don't gamble—we evaluate. Value investing is the strategy of buying high-quality businesses at a discount to their intrinsic value. We provide you with the tools to ignore the noise and focus on fundamental growth.</p>
+        </section>
+
+        <section class="section">
+            <h2>Program Curriculum</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Module</th>
+                        <th>Learning Outcome</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Foundations</strong></td>
+                        <td>Mastering Balance Sheets & Cash Flow.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Intrinsic Value</strong></td>
+                        <td>Calculating the "Fair Price" using DCF models.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>The Moat</strong></td>
+                        <td>Identifying competitive advantages that last.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Risk Management</strong></td>
+                        <td>Building a Margin of Safety for your portfolio.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <div class="cta-footer" id="join">
+        <div class="container">
+            <h2>Ready to change your financial future?</h2>
+            <p>Slots for the upcoming cohort are limited. Secure your spot today.</p>
+            <a href="mailto:info@vivaantra.com" class="btn">Inquire for Enrollment</a>
+        </div>
+    </div>
+
+</body>
+</html>
