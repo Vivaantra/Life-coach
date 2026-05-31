@@ -9,531 +9,267 @@
     <style>
         .font-serif { font-family: 'Playfair Display', serif; }
         body { font-family: 'Inter', sans-serif; }
+        .product-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
     </style>
 </head>
 <body class="bg-stone-50 selection:bg-emerald-100 selection:text-emerald-900 antialiased">
     
-    <!-- Navigation (Matches Index page) -->
-    <nav class="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
+    <!-- Navigation -->
+    <nav class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
         <a href="index.html" class="font-serif text-2xl font-bold text-emerald-950 italic tracking-tight">Vivaantra</a>
-        <div class="space-x-8 text-sm font-medium text-stone-600">
+        <div class="space-x-6 text-sm font-medium text-stone-600">
             <a href="about.html" class="hover:text-emerald-800 transition-colors">About</a>
             <a href="sessions.html" class="hover:text-emerald-800 transition-colors">Sessions</a>
             <a href="mavi.html" class="hover:text-emerald-800 transition-colors">Master the Art of Investing</a>
-            <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="bg-emerald-800 text-white px-5 py-2.5 rounded-full hover:bg-emerald-900 transition-all shadow-sm">Book Now</a>
+            <a href="https://calendar.app.google/eGNsh2DW9yzdyxXcA" class="bg-emerald-800 text-white px-4 py-2 rounded-full hover:bg-emerald-900 transition-all shadow-sm">Book Now</a>
         </div>
     </nav>
 
     <!-- Header Section -->
-    <section class="max-w-6xl mx-auto px-6 py-12 md:py-16 text-center">
+    <section class="max-w-7xl mx-auto px-4 py-10 text-center">
         <span class="text-xs font-bold uppercase tracking-widest text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-full inline-block mb-4">Handpicked Recommendations</span>
-        <h1 class="font-serif text-5xl md:text-6xl font-medium tracking-tight mb-6 text-emerald-950">
+        <h1 class="font-serif text-4xl md:text-5xl font-medium tracking-tight mb-4 text-emerald-950">
             The <span class="italic font-normal">Daily Essentials</span> Edit
         </h1>
-        <p class="text-base md:text-lg text-stone-600 max-w-2xl mx-auto leading-relaxed">
+        <p class="text-sm text-stone-600 max-w-xl mx-auto leading-relaxed">
             We track live marketplace shifts across top networks. Skip the endless searching—get verified maximum discounts right here.
         </p>
     </section>
 
-    <!-- Premium Product Showcase Container -->
-    <section class="max-w-5xl mx-auto px-6 pb-24 space-y-16">
-
-        <!-- PRODUCT 1: WILDHORN LEATHER WALLET -->
-        <div class="bg-white rounded-[32px] border border-stone-200/80 p-6 md:p-10 flex flex-col lg:flex-row gap-10 hover:shadow-2xl hover:shadow-stone-200/40 transition-all duration-500 relative overflow-hidden group">
-            
-            <!-- Left Side: Immersive Premium Product Showcase (45%) -->
-            <div class="lg:w-[45%] flex flex-col justify-between">
-                <div>
-                    <!-- Image Frame with Interactive Overlays -->
-                    <div class="rounded-2xl overflow-hidden bg-white mb-6 aspect-square relative shadow-sm border border-stone-100 flex items-center justify-center p-4">
-                        <img src="https://lh3.googleusercontent.com/u/0/d/1lesLh6uBl-HMeJQp2GAEbcY06gYhE0JH" alt="WildHorn India Brown Leather Men's Wallet" class="w-full h-full object-contain group-hover:scale-102 transition-transform duration-700 ease-out">
-                        
-                        <span class="absolute top-4 left-4 bg-emerald-950 text-white text-[11px] font-semibold tracking-wider uppercase px-3 py-1.5 rounded-lg shadow-md">
-                            💼 Everyday Classic
-                        </span>
-                        
-                        <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-xl flex items-center justify-between shadow-sm border border-white/20">
-                            <span class="text-xs font-semibold text-stone-800 flex items-center gap-1.5">
-                                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Authentic Leather Verified
-                            </span>
-                            <span class="text-[11px] text-stone-500 font-medium bg-stone-100 px-2 py-0.5 rounded">Top Rated</span>
-                        </div>
-                    </div>
-
-                    <!-- Enhanced Copywriting Copy -->
-                    <h2 class="font-serif text-3xl text-emerald-950 font-medium tracking-tight mb-2">WildHorn India Classic Brown Leather Wallet</h2>
-                    <p class="text-xs font-semibold uppercase tracking-wider text-stone-400 mb-4">Genuine Leather &bull; Elite Craftsmanship &bull; Compact Organization</p>
-                    <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                        Refine your everyday carry. Handcrafted from selected premium genuine leather, this deep brown WildHorn wallet (WH7311BROWN) gracefully patinas with time. It introduces an intelligent bifold interior configuration designed to systematically secure your essential currencies, identification cards, and business notes without sacrificing a slim profile.
-                    </p>
-                </div>
-
-                <!-- Trust Badges Under Content -->
-                <div class="grid grid-cols-3 gap-3 border-t border-stone-100 pt-6 text-center">
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">100%</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Real Leather</p>
-                    </div>
-                    <div class="border-x border-stone-100">
-                        <p class="text-lg font-bold text-emerald-950">Elite</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Bifold Design</p>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">4.3★</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Customer Rating</p>
-                    </div>
-                </div>
+    <!-- Interactive Search Bar Filter -->
+    <section class="max-w-md mx-auto px-4 mb-12">
+        <div class="relative shadow-sm rounded-2xl">
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <svg class="h-5 w-5 text-stone-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
             </div>
-
-            <!-- Right Side: Optimized Price Comparison Interface (55%) -->
-            <div class="lg:w-[55%] flex flex-col justify-between lg:border-l lg:border-stone-100 lg:pl-10 pt-6 lg:pt-0">
-                <div>
-                    <div class="flex items-center justify-between mb-6">
-                        <h3 class="text-xs font-bold text-stone-400 uppercase tracking-widest">Live Platform Price Match</h3>
-                        <span class="text-xs text-emerald-800 font-medium bg-emerald-50 px-2.5 py-1 rounded-md">Smart Choice Guarantee</span>
-                    </div>
-                    
-                    <!-- Pricing Container Columns -->
-                    <div class="space-y-4">
-                        <!-- Premium Highlight Option: AMAZON -->
-                        <div class="p-5 bg-gradient-to-br from-emerald-50/40 to-white rounded-2xl border-2 border-emerald-800/90 shadow-sm relative group/row hover:shadow-md transition-all">
-                            <span class="absolute -top-2.5 right-4 bg-emerald-800 text-white text-[10px] font-bold tracking-widest uppercase px-2.5 py-0.5 rounded-full shadow-sm">
-                                Best Value Deal
-                            </span>
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-amber-50 rounded-xl flex items-center justify-center border border-amber-100 font-bold text-amber-600 text-sm">Amz</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-900 text-base flex items-center gap-2">Amazon India</h4>
-                                        <p class="text-xs text-emerald-700 font-medium flex items-center gap-1 mt-0.5">✨ In Stock & Ready for Immediate Dispatch</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-extrabold text-stone-900 text-2xl tracking-tight">₹399</span>
-                                            <span class="text-xs text-stone-400 line-through">₹1,199</span>
-                                        </div>
-                                        <p class="text-[10px] text-stone-400 font-medium mt-0.5">Exclusive Marketplace Offer</p>
-                                    </div>
-                                    <a href="https://amzn.to/4fiCqMf" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-emerald-900 transition-all text-center whitespace-nowrap shadow-sm shadow-emerald-900/10 hover:translate-x-0.5 duration-200">
-                                        Secure Deal &rarr;
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Secondary Option: FLIPKART -->
-                        <div class="p-5 bg-stone-50/50 rounded-2xl border border-stone-200 hover:border-stone-300 transition-all group/row">
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center border border-blue-100 font-bold text-blue-600 text-sm">Fk</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-800 text-base">Flipkart Store</h4>
-                                        <p class="text-xs text-stone-400 mt-0.5">Standard shipping rules apply</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-bold text-stone-700 text-xl tracking-tight">₹425</span>
-                                            <span class="text-xs text-stone-400 line-through">₹1,199</span>
-                                        </div>
-                                        <p class="text-[10px] text-amber-700 font-medium mt-0.5">Slight variation</p>
-                                    </div>
-                                    <a href="https://fktr.in/2uTE25o" target="_blank" rel="noopener noreferrer" class="bg-white text-stone-700 border border-stone-300 hover:border-stone-400 text-xs font-semibold px-5 py-3 rounded-xl hover:bg-stone-100 transition-all text-center whitespace-nowrap">
-                                        View on Flipkart
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-8 bg-stone-100/60 rounded-2xl p-4 border border-stone-200/40 flex gap-3 items-start">
-                    <span class="text-base mt-0.5">💡</span>
-                    <p class="text-[12px] text-stone-500 leading-relaxed">
-                        <strong>Smart Shopping Tip:</strong> Amazon is currently fulfilling inventory pools on this genuine leather accessory directly, routing optimal pricing models alongside direct platform purchase verification steps.
-                    </p>
-                </div>
-            </div>
+            <input type="text" id="productSearch" onkeyup="filterProducts()" placeholder="Search from your collections (e.g., wallet, bag, massager)..." 
+                class="w-full pl-11 pr-4 py-3.5 bg-white border border-stone-200 rounded-2xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-800/20 focus:border-emerald-800 transition-all text-stone-800 placeholder-stone-400">
         </div>
-        
-        <!-- PRODUCT 2: IMPULSE RUCKSACK BAG 75L -->
-        <div class="bg-white rounded-[32px] border border-stone-200/80 p-6 md:p-10 flex flex-col lg:flex-row gap-10 hover:shadow-2xl hover:shadow-stone-200/40 transition-all duration-500 relative overflow-hidden group">
-            
-            <!-- Left Side: Immersive Premium Product Showcase (45%) -->
-            <div class="lg:w-[45%] flex flex-col justify-between">
-                <div>
-                    <!-- Image Frame with Interactive Overlays -->
-                    <div class="rounded-2xl overflow-hidden bg-white mb-6 aspect-square relative shadow-sm border border-stone-100 flex items-center justify-center p-4">
-                        <img src="https://lh3.googleusercontent.com/u/0/d/1K2MqDDTU1My9baxcRc36zkYi_U8E6J8W" alt="Impulse Rucksack Bag 75 Litres Thames Blue" class="w-full h-full object-contain group-hover:scale-102 transition-transform duration-700 ease-out">
-                        
-                        <span class="absolute top-4 left-4 bg-emerald-950 text-white text-[11px] font-semibold tracking-wider uppercase px-3 py-1.5 rounded-lg shadow-md">
-                            🌲 Adventure Choice
-                        </span>
-                        
-                        <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-xl flex items-center justify-between shadow-sm border border-white/20">
-                            <span class="text-xs font-semibold text-stone-800 flex items-center gap-1.5">
-                                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Mega Deal Active
-                            </span>
-                            <span class="text-[11px] text-stone-500 font-medium bg-stone-100 px-2 py-0.5 rounded">78% Off</span>
-                        </div>
-                    </div>
-
-                    <!-- Enhanced Copywriting Copy -->
-                    <h2 class="font-serif text-3xl text-emerald-950 font-medium tracking-tight mb-2">Impulse 75L Thames Blue Travel Rucksack</h2>
-                    <p class="text-xs font-semibold uppercase tracking-wider text-stone-400 mb-4">Ergonomic Fit &bull; Heavy Duty &bull; 1 Year Warranty</p>
-                    <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                        Engineered for unyielding exploration. Whether mapping high-altitude trails or navigating international transit, this 75-litre heavy-duty companion features advanced weight-distribution straps, balanced compartments, and custom Thames Blue weatherproofing to anchor all your camping, hiking, and tracking essentials effortlessly.
-                    </p>
-                </div>
-
-                <!-- Trust Badges Under Content -->
-                <div class="grid grid-cols-3 gap-3 border-t border-stone-100 pt-6 text-center">
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">75L</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Max Capacity</p>
-                    </div>
-                    <div class="border-x border-stone-100">
-                        <p class="text-lg font-bold text-emerald-950">1 Year</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Warranty</p>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">Premium</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Ergonomics</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Side: Optimized Price Comparison Interface (55%) -->
-            <div class="lg:w-[55%] flex flex-col justify-between lg:border-l lg:border-stone-100 lg:pl-10 pt-6 lg:pt-0">
-                <div>
-                    <div class="flex items-center justify-between mb-6">
-                        <h3 class="text-xs font-bold text-stone-400 uppercase tracking-widest">Live Platform Price Match</h3>
-                        <span class="text-xs text-emerald-800 font-medium bg-emerald-50 px-2.5 py-1 rounded-md">Smart Choice Guarantee</span>
-                    </div>
-                    
-                    <!-- Pricing Container Columns -->
-                    <div class="space-y-4">
-                        <!-- Premium Highlight Option: AMAZON -->
-                        <div class="p-5 bg-gradient-to-br from-emerald-50/40 to-white rounded-2xl border-2 border-emerald-800/90 shadow-sm relative group/row hover:shadow-md transition-all">
-                            <span class="absolute -top-2.5 right-4 bg-emerald-800 text-white text-[10px] font-bold tracking-widest uppercase px-2.5 py-0.5 rounded-full shadow-sm">
-                                Best Value Deal
-                            </span>
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-amber-50 rounded-xl flex items-center justify-center border border-amber-100 font-bold text-amber-600 text-sm">Amz</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-900 text-base flex items-center gap-2">Amazon India</h4>
-                                        <p class="text-xs text-emerald-700 font-medium flex items-center gap-1 mt-0.5">✨ Extra Coupon Discounts Eligible at Checkout</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-extrabold text-stone-900 text-2xl tracking-tight">₹1,399</span>
-                                            <span class="text-xs text-stone-400 line-through">₹6,500</span>
-                                        </div>
-                                        <p class="text-[10px] text-stone-400 font-medium mt-0.5">Massive 78% Savings</p>
-                                    </div>
-                                    <a href="https://amzn.to/4uRh2mb" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-emerald-900 transition-all text-center whitespace-nowrap shadow-sm shadow-emerald-900/10 hover:translate-x-0.5 duration-200">
-                                        Secure Deal &rarr;
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Secondary Option: FLIPKART -->
-                        <div class="p-5 bg-stone-50/50 rounded-2xl border border-stone-200 hover:border-stone-300 transition-all group/row">
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center border border-blue-100 font-bold text-blue-600 text-sm">Fk</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-800 text-base">Flipkart Store</h4>
-                                        <p class="text-xs text-stone-400 mt-0.5">Standard shipping rates apply</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-bold text-stone-700 text-xl tracking-tight">₹1,449</span>
-                                            <span class="text-xs text-stone-400 line-through">₹6,500</span>
-                                        </div>
-                                        <p class="text-[10px] text-amber-700 font-medium mt-0.5">Slight price variance</p>
-                                    </div>
-                                    <a href="https://fktr.in/p5n05mV" target="_blank" rel="noopener noreferrer" class="bg-white text-stone-700 border border-stone-300 hover:border-stone-400 text-xs font-semibold px-5 py-3 rounded-xl hover:bg-stone-100 transition-all text-center whitespace-nowrap">
-                                        View on Flipkart
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-8 bg-stone-100/60 rounded-2xl p-4 border border-stone-200/40 flex gap-3 items-start">
-                    <span class="text-base mt-0.5">💡</span>
-                    <p class="text-[12px] text-stone-500 leading-relaxed">
-                        <strong>Smart Shopping Tip:</strong> Amazon is currently matching direct inventory liquidations on this 75L technical rucksack, securing a lower price option with additional swift Prime tracking windows.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- PRODUCT 3: UPPERCASE MESSENGER BAG -->
-        <div class="bg-white rounded-[32px] border border-stone-200/80 p-6 md:p-10 flex flex-col lg:flex-row gap-10 hover:shadow-2xl hover:shadow-stone-200/40 transition-all duration-500 relative overflow-hidden group">
-            
-            <!-- Left Side: Immersive Premium Product Showcase (45%) -->
-            <div class="lg:w-[45%] flex flex-col justify-between">
-                <div>
-                    <!-- Image Frame with Interactive Overlays -->
-                    <div class="rounded-2xl overflow-hidden bg-white mb-6 aspect-square relative shadow-sm border border-stone-100 flex items-center justify-center p-4">
-                        <img src="https://lh3.googleusercontent.com/u/0/d/1btU0VkR-dhnys7FfRntPV3OwKLmgRqg2" alt="uppercase Work Essentials Messenger Bag" class="w-full h-full object-contain group-hover:scale-102 transition-transform duration-700 ease-out">
-                        
-                        <span class="absolute top-4 left-4 bg-emerald-950 text-white text-[11px] font-semibold tracking-wider uppercase px-3 py-1.5 rounded-lg shadow-md">
-                            🔥 Highly Recommended
-                        </span>
-                        
-                        <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-xl flex items-center justify-between shadow-sm border border-white/20">
-                            <span class="text-xs font-semibold text-stone-800 flex items-center gap-1.5">
-                                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Verified Deals Available
-                            </span>
-                            <span class="text-[11px] text-stone-500 font-medium bg-stone-100 px-2 py-0.5 rounded">Updated Live</span>
-                        </div>
-                    </div>
-
-                    <!-- Enhanced Copywriting Copy -->
-                    <h2 class="font-serif text-3xl text-emerald-950 font-medium tracking-tight mb-2">Uppercase Work Essentials Messenger Bag</h2>
-                    <p class="text-xs font-semibold uppercase tracking-wider text-stone-400 mb-4">Handcrafted &bull; Water Resistant &bull; Eco-Friendly Fabric</p>
-                    <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                        Elevate your professional ritual. This dual-tone premium messenger bag from <em>uppercase</em> blends thoughtful functionality with minimalist design. Crafted with sustainable, water-resistant fabrics and featuring an ultra-comfortable padded shoulder strap, it perfectly anchors your laptop, productivity planners, and daily tools.
-                    </p>
-                </div>
-
-                <!-- Trust Badges Under Content -->
-                <div class="grid grid-cols-3 gap-3 border-t border-stone-100 pt-6 text-center">
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">4.6★</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">User Rating</p>
-                    </div>
-                    <div class="border-x border-stone-100">
-                        <p class="text-lg font-bold text-emerald-950">15.6"</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Laptop Fit</p>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">100%</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Recycled Material</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Side: Optimized Price Comparison Interface (55%) -->
-            <div class="lg:w-[55%] flex flex-col justify-between lg:border-l lg:border-stone-100 lg:pl-10 pt-6 lg:pt-0">
-                <div>
-                    <div class="flex items-center justify-between mb-6">
-                        <h3 class="text-xs font-bold text-stone-400 uppercase tracking-widest">Live Platform Price Match</h3>
-                        <span class="text-xs text-emerald-800 font-medium bg-emerald-50 px-2.5 py-1 rounded-md">Smart Choice Guarantee</span>
-                    </div>
-                    
-                    <!-- Pricing Container Columns -->
-                    <div class="space-y-4">
-                        <!-- Premium Highlight Option: AMAZON -->
-                        <div class="p-5 bg-gradient-to-br from-emerald-50/40 to-white rounded-2xl border-2 border-emerald-800/90 shadow-sm relative group/row hover:shadow-md transition-all">
-                            <span class="absolute -top-2.5 right-4 bg-emerald-800 text-white text-[10px] font-bold tracking-widest uppercase px-2.5 py-0.5 rounded-full shadow-sm">
-                                Best Value Deal
-                            </span>
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-amber-50 rounded-xl flex items-center justify-center border border-amber-100 font-bold text-amber-600 text-sm">Amz</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-900 text-base flex items-center gap-2">Amazon India</h4>
-                                        <p class="text-xs text-emerald-700 font-medium flex items-center gap-1 mt-0.5">✨ Free Superfast Prime Delivery</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-extrabold text-stone-900 text-2xl tracking-tight">₹1,899</span>
-                                            <span class="text-xs text-stone-400 line-through">₹3,499</span>
-                                        </div>
-                                        <p class="text-[10px] text-stone-400 font-medium mt-0.5">Lowest price in 30 days</p>
-                                    </div>
-                                    <a href="https://amzn.to/4viOiTc" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-emerald-900 transition-all text-center whitespace-nowrap shadow-sm shadow-emerald-900/10 hover:translate-x-0.5 duration-200">
-                                        Secure Deal &rarr;
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Secondary Option: FLIPKART -->
-                        <div class="p-5 bg-stone-50/50 rounded-2xl border border-stone-200 hover:border-stone-300 transition-all group/row">
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center border border-blue-100 font-bold text-blue-600 text-sm">Fk</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-800 text-base">Flipkart Store</h4>
-                                        <p class="text-xs text-stone-400 mt-0.5">Standard shipping rates apply</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-bold text-stone-700 text-xl tracking-tight">₹1,950</span>
-                                            <span class="text-xs text-stone-400 line-through">₹3,499</span>
-                                        </div>
-                                        <p class="text-[10px] text-amber-700 font-medium mt-0.5">Costs ₹51 more</p>
-                                    </div>
-                                    <a href="https://fktr.in/1y3N3ZA" target="_blank" rel="noopener noreferrer" class="bg-white text-stone-700 border border-stone-300 hover:border-stone-400 text-xs font-semibold px-5 py-3 rounded-xl hover:bg-stone-100 transition-all text-center whitespace-nowrap">
-                                        View on Flipkart
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-8 bg-stone-100/60 rounded-2xl p-4 border border-stone-200/40 flex gap-3 items-start">
-                    <span class="text-base mt-0.5">💡</span>
-                    <p class="text-[12px] text-stone-500 leading-relaxed">
-                        <strong>Smart Shopping Tip:</strong> Amazon is currently hosting a lightning promotion on this item, driving an immediate <strong>₹51 discount variance</strong>. We recommend closing your purchase via Amazon to get the best value.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- PRODUCT 4: FRIZTY HEAD MASSAGER -->
-        <div class="bg-white rounded-[32px] border border-stone-200/80 p-6 md:p-10 flex flex-col lg:flex-row gap-10 hover:shadow-2xl hover:shadow-stone-200/40 transition-all duration-500 relative overflow-hidden group">
-            
-            <!-- Left Side: Immersive Premium Product Showcase (45%) -->
-            <div class="lg:w-[45%] flex flex-col justify-between">
-                <div>
-                    <!-- Image Frame with Interactive Overlays -->
-                    <div class="rounded-2xl overflow-hidden bg-white mb-6 aspect-square relative shadow-sm border border-stone-100 flex items-center justify-center p-4">
-                        <img src="https://lh3.googleusercontent.com/u/0/d/1WtsYRZZqZMQUEBwTaf8hVVKvJCW2jS9B" alt="Frizty Head Massager For Scalp" class="w-full h-full object-contain group-hover:scale-102 transition-transform duration-700 ease-out">
-                        
-                        <span class="absolute top-4 left-4 bg-emerald-950 text-white text-[11px] font-semibold tracking-wider uppercase px-3 py-1.5 rounded-lg shadow-md">
-                            🔥 Wellness Best Seller
-                        </span>
-                        
-                        <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-xl flex items-center justify-between shadow-sm border border-white/20">
-                            <span class="text-xs font-semibold text-stone-800 flex items-center gap-1.5">
-                                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Verified Deals Available
-                            </span>
-                            <span class="text-[11px] text-stone-500 font-medium bg-stone-100 px-2 py-0.5 rounded">Updated Live</span>
-                        </div>
-                    </div>
-
-                    <!-- Enhanced Copywriting Copy -->
-                    <h2 class="font-serif text-3xl text-emerald-950 font-medium tracking-tight mb-2">Frizty Electric Scalp & Hair Massager</h2>
-                    <p class="text-xs font-semibold uppercase tracking-wider text-stone-400 mb-4">96 Silicon Points &bull; Red Light Therapy &bull; Stress Relief</p>
-                    <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                        Elevate your self-care ritual and naturally stimulate hair growth. Featuring 96 independent detachable silicon kneading points and advanced integrated Red Light Therapy, this premium Lavender wellness companion rejuvenates cellular health, boosts local blood circulation, and melts deep stress away in minutes.
-                    </p>
-                </div>
-
-                <!-- Trust Badges Under Content -->
-                <div class="grid grid-cols-3 gap-3 border-t border-stone-100 pt-6 text-center">
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">96</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Kneading Points</p>
-                    </div>
-                    <div class="border-x border-stone-100">
-                        <p class="text-lg font-bold text-emerald-950">650nm</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Red Light</p>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-emerald-950">IPX7</p>
-                        <p class="text-[10px] uppercase tracking-wider font-semibold text-stone-400">Waterproof</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Side: Optimized Price Comparison Interface (55%) -->
-            <div class="lg:w-[55%] flex flex-col justify-between lg:border-l lg:border-stone-100 lg:pl-10 pt-6 lg:pt-0">
-                <div>
-                    <div class="flex items-center justify-between mb-6">
-                        <h3 class="text-xs font-bold text-stone-400 uppercase tracking-widest">Live Platform Price Match</h3>
-                        <span class="text-xs text-emerald-800 font-medium bg-emerald-50 px-2.5 py-1 rounded-md">Smart Choice Guarantee</span>
-                    </div>
-                    
-                    <!-- Pricing Container Columns -->
-                    <div class="space-y-4">
-                        <!-- Premium Highlight Option: AMAZON -->
-                        <div class="p-5 bg-gradient-to-br from-emerald-50/40 to-white rounded-2xl border-2 border-emerald-800/90 shadow-sm relative group/row hover:shadow-md transition-all">
-                            <span class="absolute -top-2.5 right-4 bg-emerald-800 text-white text-[10px] font-bold tracking-widest uppercase px-2.5 py-0.5 rounded-full shadow-sm">
-                                Best Value Deal
-                            </span>
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-amber-50 rounded-xl flex items-center justify-center border border-amber-100 font-bold text-amber-600 text-sm">Amz</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-900 text-base flex items-center gap-2">Amazon India</h4>
-                                        <p class="text-xs text-emerald-700 font-medium flex items-center gap-1 mt-0.5">✨ Free Superfast Prime Delivery Available</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-extrabold text-stone-900 text-2xl tracking-tight">₹1,899</span>
-                                            <span class="text-xs text-stone-400 line-through">₹3,499</span>
-                                        </div>
-                                        <p class="text-[10px] text-stone-400 font-medium mt-0.5">Lowest price in 30 days</p>
-                                    </div>
-                                    <a href="https://amzn.to/4u2xUoH" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-emerald-900 transition-all text-center whitespace-nowrap shadow-sm shadow-emerald-900/10 hover:translate-x-0.5 duration-200">
-                                        Secure Deal &rarr;
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Secondary Option: FLIPKART -->
-                        <div class="p-5 bg-stone-50/50 rounded-2xl border border-stone-200 hover:border-stone-300 transition-all group/row">
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center border border-blue-100 font-bold text-blue-600 text-sm">Fk</div>
-                                    <div>
-                                        <h4 class="font-bold text-stone-800 text-base">Flipkart Store</h4>
-                                        <p class="text-xs text-stone-400 mt-0.5">Standard shipping rates apply</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between sm:justify-end gap-6 border-t sm:border-t-0 pt-3 sm:pt-0 border-stone-100">
-                                    <div class="text-left sm:text-right">
-                                        <div class="flex items-baseline gap-1.5">
-                                            <span class="font-bold text-stone-700 text-xl tracking-tight">₹1,950</span>
-                                            <span class="text-xs text-stone-400 line-through">₹3,499</span>
-                                        </div>
-                                        <p class="text-[10px] text-amber-700 font-medium mt-0.5">Costs ₹51 more</p>
-                                    </div>
-                                    <a href="https://fktr.in/gatFr2P" target="_blank" rel="noopener noreferrer" class="bg-white text-stone-700 border border-stone-300 hover:border-stone-400 text-xs font-semibold px-5 py-3 rounded-xl hover:bg-stone-100 transition-all text-center whitespace-nowrap">
-                                        View on Flipkart
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-8 bg-stone-100/60 rounded-2xl p-4 border border-stone-200/40 flex gap-3 items-start">
-                    <span class="text-base mt-0.5">💡</span>
-                    <p class="text-[12px] text-stone-500 leading-relaxed">
-                        <strong>Smart Shopping Tip:</strong> Amazon is currently hosting a lightning wellness sale event on this massager, resulting in an immediate <strong>₹51 discount variance</strong>. We highly recommend completing checkout through Amazon for the best pricing strategy.
-                    </p>
-                </div>
-            </div>
-        </div>
-
     </section>
 
+    <!-- Optimized Multi-Product Fluid Showroom Grid (Configured for 5 Products Per Row on Large Displays) -->
+    <main class="max-w-[95rem] mx-auto px-4 pb-24">
+        <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+            <!-- PRODUCT 1: WILDHORN LEATHER WALLET -->
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-keywords="wildhorn india classic brown leather wallet men accessory wh7311brown">
+                <div>
+                    <!-- Thumbnail Media Box -->
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/u/0/d/1lesLh6uBl-HMeJQp2GAEbcY06gYhE0JH" alt="WildHorn India Brown Leather Men's Wallet" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">💼 Leather Classic</span>
+                    </div>
+
+                    <!-- Meta Specs -->
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">WildHorn India Brown Leather Wallet</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Genuine Leather &bull; Slim Config</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Handcrafted from selected premium genuine leather, this deep brown WildHorn wallet introduces an intelligent bifold interior setup built to systematically secure currency.
+                    </p>
+                </div>
+
+                <!-- Commercial Conversion Stack -->
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <!-- Amazon Row -->
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">₹399</span>
+                                <span class="text-[10px] text-stone-400 line-through">₹1,199</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4fiCqMf" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">
+                            Buy &rarr;
+                        </a>
+                    </div>
+                    <!-- Flipkart Row -->
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">₹425</span>
+                        </div>
+                        <a href="https://fktr.in/2uTE25o" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 2: IMPULSE RUCKSACK BAG 75L -->
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-keywords="impulse 75l thames blue travel rucksack tracking hiking backpack bag camping">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/u/0/d/1K2MqDDTU1My9baxcRc36zkYi_U8E6J8W" alt="Impulse Rucksack Bag 75 Litres Thames Blue" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">🌲 Outdoor Adventure</span>
+                    </div>
+
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">Impulse 75L Thames Blue Travel Rucksack</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Heavy Duty &bull; 75L Capacity</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Engineered for unyielding exploration. Features advanced weight-distribution straps, balanced compartments, and custom weatherproofing.
+                    </p>
+                </div>
+
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <!-- Amazon Row -->
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">₹1,399</span>
+                                <span class="text-[10px] text-stone-400 line-through">₹6,500</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4uRh2mb" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">
+                            Buy &rarr;
+                        </a>
+                    </div>
+                    <!-- Flipkart Row -->
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">₹1,449</span>
+                        </div>
+                        <a href="https://fktr.in/p5n05mV" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 3: UPPERCASE MESSENGER BAG -->
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-keywords="uppercase work essentials messenger bag office laptop bag dual tone professional fabric">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/u/0/d/1btU0VkR-dhnys7FfRntPV3OwKLmgRqg2" alt="uppercase Work Essentials Messenger Bag" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">🔥 Executive pick</span>
+                    </div>
+
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">Uppercase Work Essentials Messenger Bag</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Water Resistant &bull; 15.6" Laptop</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        This dual-tone premium messenger bag from uppercase blends thoughtful functionality with minimalist design. Built with sustainable fabrics.
+                    </p>
+                </div>
+
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <!-- Amazon Row -->
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">₹1,899</span>
+                                <span class="text-[10px] text-stone-400 line-through">₹3,499</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4viOiTc" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">
+                            Buy &rarr;
+                        </a>
+                    </div>
+                    <!-- Flipkart Row -->
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">₹1,950</span>
+                        </div>
+                        <a href="https://fktr.in/1y3N3ZA" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 4: FRIZTY HEAD MASSAGER -->
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-keywords="frizty electric scalp hair head massager therapy red light relaxation stress wellness">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/u/0/d/1WtsYRZZqZMQUEBwTaf8hVVKvJCW2jS9B" alt="Frizty Head Massager For Scalp" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">✨ Premium Wellness</span>
+                    </div>
+
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">Frizty Electric Scalp & Hair Massager</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Red Light Tech &bull; IPX7 Waterproof</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Featuring 96 independent detachable silicon kneading points and advanced integrated Red Light Therapy to rejuvenate health and melt deep stress.
+                    </p>
+                </div>
+
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <!-- Amazon Row -->
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">₹1,899</span>
+                                <span class="text-[10px] text-stone-400 line-through">₹3,499</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4u2xUoH" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">
+                            Buy &rarr;
+                        </a>
+                    </div>
+                    <!-- Flipkart Row -->
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">₹1,950</span>
+                        </div>
+                        <a href="https://fktr.in/gatFr2P" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Dynamic Safe Empty State Callback UI -->
+        <div id="emptyState" class="hidden text-center py-16">
+            <span class="text-4xl">🔎</span>
+            <h3 class="font-serif text-xl font-bold text-emerald-950 mt-4">No matching products found</h3>
+            <p class="text-stone-500 text-xs mt-1">Try refining your search vocabulary or look for broad terms like 'bag' or 'wallet'.</p>
+        </div>
+    </main>
+
     <!-- Affiliate Disclosure Context -->
-    <section class="max-w-4xl mx-auto px-6 pb-16 text-center">
-        <p class="text-xs text-stone-400 leading-relaxed max-w-2xl mx-auto">
+    <section class="max-w-4xl mx-auto px-4 pb-16 text-center">
+        <p class="text-[11px] text-stone-400 leading-relaxed max-w-2xl mx-auto">
             * <strong>Affiliate Disclosure:</strong> Vivaantra evaluates multi-store values for user convenience. Clicking these links maps unique affiliate tracking IDs. If an automated registration event or checkout follows, a small fixed bounty or percentage commission is awarded to Vivaantra at zero additional expense to you.
         </p>
     </section>
 
     <!-- Footer -->
-    <footer class="max-w-6xl mx-auto px-6 py-12 border-t border-stone-200 text-center text-sm text-stone-400">
+    <footer class="max-w-7xl mx-auto px-4 py-8 border-t border-stone-200 text-center text-xs text-stone-400">
         &copy; 2026 Vivaantra. All rights reserved.
     </footer>
+
+    <!-- Instant Search Logic System Script -->
+    <script>
+        function filterProducts() {
+            const input = document.getElementById('productSearch').value.toLowerCase();
+            const cards = document.getElementsByClassName('product-card');
+            let visibleCount = 0;
+
+            for (let i = 0; i < cards.length; i++) {
+                const keywords = cards[i].getAttribute('data-keywords').toLowerCase();
+                if (keywords.includes(input)) {
+                    cards[i].style.display = "flex";
+                    visibleCount++;
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+
+            const emptyState = document.getElementById('emptyState');
+            if (visibleCount === 0) {
+                emptyState.classList.remove('hidden');
+            } else {
+                emptyState.classList.add('hidden');
+            }
+        }
+    </script>
 </body>
 </html>
