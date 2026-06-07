@@ -14,6 +14,7 @@
     </style>
 </head>
 <body class="bg-stone-50 text-stone-800">
+    <!-- Navigation Bar -->
     <nav class="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
         <a href="index.html" class="font-serif text-2xl font-bold text-emerald-950 italic">Vivaantra</a>
         <div class="space-x-8 text-sm font-medium text-stone-600">
@@ -25,6 +26,7 @@
         </div>
     </nav>
 
+    <!-- Header Section -->
     <section class="max-w-4xl mx-auto px-6 py-16 text-center">
         <h1 class="font-serif text-4xl md:text-6xl font-medium tracking-tight mb-6 text-emerald-950">
             Connect with <span class="italic">Vivaantra</span>
@@ -34,9 +36,11 @@
         </p>
     </section>
 
+    <!-- Interactive Grid Content -->
     <section class="max-w-6xl mx-auto px-6 pb-24">
         <div class="grid md:grid-cols-5 gap-12 items-start">
             
+            <!-- Quick Link Side Card -->
             <div class="md:col-span-2 bg-stone-100 p-8 rounded-3xl border border-stone-200">
                 <h3 class="font-serif text-2xl text-emerald-950 mb-4 font-medium">Ready to start?</h3>
                 <p class="text-stone-600 text-sm leading-relaxed mb-6">
@@ -52,8 +56,16 @@
                 </div>
             </div>
 
+            <!-- Web3Forms Powered Contact Form Layout -->
             <div class="md:col-span-3">
-                <form action="#" method="POST" class="space-y-6">
+                <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                    
+                    <!-- Web3Forms Authentication Token Integration Key -->
+                    <input type="hidden" name="access_key" value="5bc9a32f-08ef-4bc0-af95-b08f7228fedf">
+                    
+                    <!-- Optional: Redirects visitors back to your home layout after form submission -->
+                    <input type="hidden" name="redirect" value="https://vivaantra.com/index.html">
+
                     <div class="grid sm:grid-cols-2 gap-6">
                         <div>
                             <label for="name" class="block text-xs font-semibold uppercase tracking-wider text-stone-500 mb-2">Your Name</label>
@@ -68,10 +80,10 @@
                     <div>
                         <label for="subject" class="block text-xs font-semibold uppercase tracking-wider text-stone-500 mb-2">What are you exploring?</label>
                         <select id="subject" name="subject" class="w-full bg-white border border-stone-200 rounded-xl px-4 py-3 text-stone-900 focus:outline-none focus:border-emerald-800 focus:ring-1 focus:ring-emerald-800 transition-all">
-                            <option value="general">General Coaching Query</option>
-                            <option value="sessions">Life Strategy Session Registration</option>
-                            <option value="investing">Master the Art of Investing Program</option>
-                            <option value="other">Other Inquiry</option>
+                            <option value="General Coaching Query">General Coaching Query</option>
+                            <option value="Life Strategy Session Registration">Life Strategy Session Registration</option>
+                            <option value="Master the Art of Investing Program">Master the Art of Investing Program</option>
+                            <option value="Other Inquiry">Other Inquiry</option>
                         </select>
                     </div>
 
@@ -89,6 +101,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="max-w-6xl mx-auto px-6 py-12 border-t border-stone-200 text-center text-sm text-stone-400">
         &copy; 2026 Vivaantra. All rights reserved.
     </footer>
