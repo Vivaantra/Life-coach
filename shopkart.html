@@ -12,12 +12,14 @@
         .font-serif { font-family: 'Playfair Display', serif; }
         body { font-family: 'Inter', sans-serif; }
         .product-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .logo-nav { height: 250px; width: auto; object-fit: contain; }
+        .logo-footer { height: 200px; width: auto; object-fit: contain; }
     </style>
 </head>
 <body class="bg-stone-50 selection:bg-emerald-100 selection:text-emerald-900 antialiased">
     
     <nav class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-        <a href="index.html" class="font-serif text-2xl font-bold text-emerald-950 italic tracking-tight">Vivaantra</a>
+        <a href="index.html"><img src="logo.png" alt="Vivaantra" class="logo-nav"></a>
         <div class="space-x-6 text-sm font-medium text-stone-600">
             <a href="about.html" class="hover:text-emerald-800 transition-colors">About</a>
             <a href="contact.html" class="hover:text-emerald-800 transition-colors">Contact</a>
@@ -51,13 +53,13 @@
         <div class="flex flex-wrap justify-center gap-2" id="categoryFilters">
             <button onclick="filterByCategory('all')" class="category-btn active text-xs font-medium px-4 py-2 rounded-full border border-emerald-800 bg-emerald-800 text-white transition-all" data-cat="all">All Deals</button>
             <button onclick="filterByCategory('travel')" class="category-btn text-xs font-medium px-4 py-2 rounded-full border border-stone-200 bg-white text-stone-600 hover:border-emerald-800 hover:text-emerald-800 transition-all" data-cat="travel">✈️ Travel</button>
-            <button onclick="filterByCategory('style')" class="category-btn text-xs font-medium px-4 py-2 rounded-full border border-stone-200 bg-white text-stone-600 hover:border-emerald-800 hover:text-emerald-800 transition-all" data-cat="style">💼 Style</button>
+            <button onclick="filterByCategory('style')" class="category-btn text-xs font-medium px-4 py-2 rounded-full border border-stone-200 bg-white text-stone-600 hover:border-emerald-800 hover:text-emerald-800 transition-all" data-cat="style">👔 Style</button>
             <button onclick="filterByCategory('wellness')" class="category-btn text-xs font-medium px-4 py-2 rounded-full border border-stone-200 bg-white text-stone-600 hover:border-emerald-800 hover:text-emerald-800 transition-all" data-cat="wellness">🧴 Wellness</button>
             <button onclick="filterByCategory('books')" class="category-btn text-xs font-medium px-4 py-2 rounded-full border border-stone-200 bg-white text-stone-600 hover:border-emerald-800 hover:text-emerald-800 transition-all" data-cat="books">📚 Books</button>
             <button onclick="filterByCategory('home')" class="category-btn text-xs font-medium px-4 py-2 rounded-full border border-stone-200 bg-white text-stone-600 hover:border-emerald-800 hover:text-emerald-800 transition-all" data-cat="home">🏠 Home</button>
             <button onclick="filterByCategory('free')" class="category-btn text-xs font-medium px-4 py-2 rounded-full border border-stone-200 bg-white text-stone-600 hover:border-emerald-800 hover:text-emerald-800 transition-all" data-cat="free">🆓 Free</button>
         </div>
-        <p class="text-center text-xs text-stone-400 mt-3"><span id="productCount">15</span> products found</p>
+        <p class="text-center text-xs text-stone-400 mt-3"><span id="productCount">25</span> products found</p>
     </section>
 
     <main class="max-w-[95rem] mx-auto px-4 pb-24">
@@ -677,6 +679,318 @@
                 </div>
             </div>
 
+            <!-- NEW PRODUCTS START -->
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="free" data-keywords="timeless art of value investing principles masters ebook free download book finance stocks investment wealth management vivaantra">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1tndhOHHvNePZn2YxNRSCnvGRL2AwdGZr" alt="The Timeless Art of Value Investing Ebook" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">💝 Free Resource</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">The Timeless Art of Value Investing</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Principles from the Masters • Free Ebook</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Master the principles of value investing from the greatest minds in finance. A comprehensive guide to building wealth through time-tested investment strategies.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-emerald-50 p-3 rounded-xl border border-emerald-100/50">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-emerald-800 block uppercase tracking-wider">Digital Copy</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-emerald-950 text-sm">FREE</span>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1tndhOHHvNePZn2YxNRSCnvGRL2AwdGZr/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-xs font-semibold px-4 py-2 rounded-xl hover:bg-emerald-900 transition-all text-center shadow-sm">
+                            Download Free
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="wellness" data-keywords="costar humidifier room moisture 6 litres water tank top refill cool mist ultrasonic home bedroom whisper quiet auto shut off cold cough relief">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1xaVADgSo-7lXMjdabsqaDVgwv0IumA7i" alt="COSTAR Humidifier for Room" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">💨 Cool Mist</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">COSTAR Humidifier 6L for Room</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Top-Refill • Whisper-Quiet • Auto-Shut Off</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Ultrasonic cool mist humidifier with 6L capacity. Whisper-quiet operation with auto-shut off feature. Effective relief from cold, cough and dry air.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4uVJMtq" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/smVk51p" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="wellness" data-keywords="mars edge of desire lip liner one swipe smooth application long lasting lip pencil choco butter cosmetics makeup">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1kTLs7WWoX92BNkbolLu7O9LCcgZbMTX-" alt="MARS Edge of Desire Lip Liner" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">💄 Long Lasting</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">MARS Edge of Desire Lip Liner</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">One Swipe Application • Choco Butter • 1.4gm</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Smooth one-swipe application with long-lasting formula. Rich Choco Butter shade for a perfect lip outline that stays put all day.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4xMBDKi" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/uzW00X0" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="wellness" data-keywords="loreal professionnel absolut repair shampoo mask dry damaged hair 300ml 250ml protein omega-9 strengthening repairing men women haircare">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1YMdp4Y8nCV3p8vlx-YbjrIM7A9veAJSs" alt="L'Oréal Professionnel Absolut Repair Shampoo & Mask" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm"> salon grade</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">L'Oréal Professionnel Absolut Repair Set</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Shampoo 300ml + Mask 250ml • Protein & Omega-9</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Professional routine for dry and damaged hair. 13x resistance to hair damage with Protein & Omega-9. For men and women seeking salon-quality repair at home.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/44rlrk5" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/0J3BV3h" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="wellness" data-keywords="bare anatomy anti-dandruff shampoo 100% dandruff reduction salicylic acid biotin 100ml haircare scalp">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1CK8mtTXIbdaz08XDtjlW2-wKL_eSrOmo" alt="BARE ANATOMY Anti-Dandruff Shampoo" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">🧴 Anti-Dandruff</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">BARE ANATOMY Anti-Dandruff Shampoo</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Salicylic Acid + Biotin • 100ml • 100% Reduction</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Clinically proven formula with Salicylic Acid and Biotin for up to 100% dandruff reduction. Gentle yet effective for a healthy, flake-free scalp.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4eFlnSF" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/2RTIncv" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="wellness" data-keywords="wishcare hair growth serum scalp 94% saw new hair growth redensyl rosemary oil 100% hairfall reduction in-vivo tested men women 30ml">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1YKiGZDBx5bzImhK_uVA6mweIAcpZW8R_" alt="WishCare Hair Growth Serum" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">✨ Hair Growth</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">WishCare Hair Growth Serum</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Redensyl + Rosemary Oil • 30ml • In-Vivo Tested</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Clinically tested serum with 94% users seeing new hair growth and 100% hairfall reduction. Powered by Redensyl & Rosemary Oil for men and women.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4gDDBX6" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/ok8tbyy" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="wellness" data-keywords="pilgrim korean rice water collagen advanced damage repair hair serum spf 35 17 amino acids wheat protein 5 ceramides 100ml haircare">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/10GAHNmYg8f5VnW48lVYXFWzT-Ytbar3p" alt="Pilgrim Korean Rice Water Hair Serum" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">🇰🇷 Korean Beauty</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">Pilgrim Korean Rice Water Hair Serum</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">SPF 35 • 17 Amino Acids • 5 Ceramides • 100ml</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Advanced damage repair serum with Korean Rice Water, Collagen, and SPF 35 protection. Formulated with 17 Amino Acids, Wheat Protein & 5 Ceramides.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4vtDfHl" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/4hQ4cY6" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="style" data-keywords="allen solly men polo t-shirt comfortable rich cotton blend band collar regular fit stylish premium all day wear fashion clothing">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1BXBDyBsfkq54J1nOqbe5-DdPa1XPa1GR" alt="Allen Solly Men's Polo T-Shirt" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">👔 Premium Wear</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">Allen Solly Men's Polo T-Shirt</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Rich Cotton Blend • Band Collar • Regular Fit</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Comfortable rich cotton blend polo with band collar and regular fit. Stylish and premium all-day wear for the modern man.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/3QifjaI" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/K06jK6e" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="style" data-keywords="sonata quartz analog black dial black leather strap watch women nt8976yl03w wristwatch timepiece accessory">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1MQiFxmqzyPKRs_q3V3IJKy7N2FT8lffr" alt="Sonata Quartz Analog Watch for Women" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">⌚ Classic Style</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">Sonata Quartz Analog Watch for Women</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Black Dial • Leather Strap • NT8976YL03W</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Elegant quartz analog watch with black dial and leather strap. A timeless accessory that complements any outfit with understated sophistication.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/44tIMSg" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl border border-stone-200/80 p-4 flex flex-col justify-between hover:shadow-xl hover:shadow-stone-200/50 relative overflow-hidden group" data-category="style" data-keywords="casio women vintage la670wga-1df black digital dial gold stainless steel band wristwatch timepiece accessory retro classic">
+                <div>
+                    <div class="rounded-xl overflow-hidden bg-white mb-4 aspect-square relative border border-stone-100 flex items-center justify-center p-2">
+                        <img src="https://lh3.googleusercontent.com/d/1pD8nfOY46CrB4N-Bzb7cmU1TrCddP40a" alt="Casio Women Vintage Watch" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy">
+                        <span class="absolute top-2 left-2 bg-emerald-950 text-white text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded shadow-sm">🕹️ Retro Classic</span>
+                    </div>
+                    <h2 class="font-serif text-lg text-emerald-950 font-bold leading-tight line-clamp-2 mb-1 group-hover:text-emerald-800 transition-colors">Casio Women Vintage LA670WGA-1DF</h2>
+                    <p class="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-3">Black Digital Dial • Gold Stainless Steel Band</p>
+                    <p class="text-stone-500 text-xs leading-relaxed line-clamp-3 mb-4">
+                        Iconic Casio vintage digital watch with black dial and gold stainless steel band. A retro classic that never goes out of style.
+                    </p>
+                </div>
+                <div class="mt-auto pt-3 border-t border-stone-100 space-y-2">
+                    <div class="flex items-center justify-between bg-stone-50 p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-amber-600 block">Amazon</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-extrabold text-stone-900 text-sm">Check Deal →</span>
+                            </div>
+                        </div>
+                        <a href="https://amzn.to/4w0HMkq" target="_blank" rel="noopener noreferrer" class="bg-emerald-800 text-white text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-emerald-900 transition-all text-center shadow-sm">Buy →</a>
+                    </div>
+                    <div class="flex items-center justify-between p-2 rounded-xl border border-stone-100">
+                        <div class="text-left">
+                            <span class="text-[10px] font-bold text-blue-600 block">Flipkart</span>
+                            <span class="font-bold text-stone-700 text-sm">Check Price</span>
+                        </div>
+                        <a href="https://fktr.in/GlMnDY1" target="_blank" rel="noopener noreferrer" class="text-stone-600 border border-stone-200 text-[11px] font-medium px-2.5 py-1.5 rounded-lg hover:bg-stone-50 transition-all text-center">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NEW PRODUCTS END -->
+
         </div>
 
         <div id="emptyState" class="hidden text-center py-16">
@@ -702,7 +1016,7 @@
         <div class="max-w-7xl mx-auto px-4 py-12">
             <div class="grid sm:grid-cols-3 gap-8 mb-8">
                 <div>
-                    <a href="index.html" class="font-serif text-xl font-bold text-emerald-950 italic">Vivaantra</a>
+                    <a href="index.html"><img src="logo.png" alt="Vivaantra" class="logo-footer"></a>
                     <p class="text-sm text-stone-500 mt-3 leading-relaxed">Smart shopping starts here. We find the deals, you enjoy the savings.</p>
                 </div>
                 <div>
